@@ -1,7 +1,7 @@
 import * as yup from 'yup';
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
-import Confirmation from './Confirmation'
+import Confirmation from 'src/Confirmation'
 import { Link } from 'react-router-dom'
 
 const initialOrderValues = {

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, Route, BrowserRouter as Router } from "react-router-dom";
-import PizzaForm from "./components/PizzaForm";
-import "./App.css";
+import PizzaForm from "src/components/PizzaForm";
+import "src/App.css";
 
 const PizzaHeader = () => {
     return (

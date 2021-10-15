@@ -1,8 +1,8 @@
 import React from "react";
-import './App.css'
+import 'src/App.css'
 import {Route, Link, Switch } from 'react-router-dom';
-import PizzaHeader from "./components/PizzaHeader";
-import PizzaForm from "./components/PizzaForm";
+import PizzaHeader from "src/components/PizzaHeader";
+import PizzaForm from "src/components/PizzaForm";
 
 const App = () => {
   return (
